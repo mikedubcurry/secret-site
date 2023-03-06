@@ -35,6 +35,18 @@ h1 {
   line-height: 1.1;
 }
 
+#game-canvas {
+  max-width: 500px;
+  width: 100%;
+  border: red 1px solid;
+}
+
+@media (min-width: 500px) {
+  .controls {
+    display: none;
+  }
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
